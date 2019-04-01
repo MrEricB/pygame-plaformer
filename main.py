@@ -70,7 +70,8 @@ class Game:
     def show_go_screen(self):
         # game over/continue screen
         pass
-    
+
+# start and run the game    
 g = Game()
 g.show_start_screen()
 while g.running:
