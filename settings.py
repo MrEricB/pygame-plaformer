@@ -13,6 +13,16 @@ PLAYER_FRICTION = -0.12 # smaller means faster max speed but take longer to come
 PLAYER_GRAV = 0.8
 PLAYER_JUMP = 20 # power of the players jump
 
+# Game properties
+BOOST_POWER = 60
+POW_SPAWN_PCT = 15
+MOB_FREQ = 5000
+PLAYER_LAYER = 2
+PLATFOMR_LAYER = 1
+POW_LAYER = 1
+MOB_LAYER = 2
+CLOUD_LAYER = 0
+
 # Starting platforms
 PLATFORM_LIST = [
     (0, HEIGHT - 60),
